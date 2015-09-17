@@ -106,6 +106,16 @@ p {
 	background-image: url("../images/instagram-red.svg");
 }
 
+footer {
+    padding-left: .5em;
+}
+
+.copyright {
+    opacity: 0.5;
+    color: red;
+    font-size: 10px;
+}
+
 @media only screen and (min-width: 25em) {
     .business-card {
         padding-top: 25em;
