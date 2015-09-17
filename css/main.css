@@ -39,10 +39,14 @@ h1 {
     opacity: 0.8;
 }
 
+p {
+    font-weight: 400;
+    margin-right: 5em;
+}
+
 .social-media-badges{
 	position: absolute;
-	bottom: 0;
-	margin: 0 auto;
+	padding-top: 5em;
 }
 
 .social-media-badges a {
@@ -58,8 +62,8 @@ h1 {
 }
 
 .email {
-	width: 5em;
-	height: 5em;
+	width: 2.5em;
+	height: 2.5em;
 	background-image: url("../images/email.svg");
 	background-repeat: no-repeat;
 	margin-left: .25em;
@@ -70,8 +74,8 @@ h1 {
 }
 
 .linkedin {
-	width: 5em;
-	height: 5em;
+	width: 2.5em;
+	height: 2.5em;
 	background-image: url("../images/linkdn.svg");
 	background-repeat: no-repeat;
 }
@@ -81,8 +85,8 @@ h1 {
 }
 
 .behance {
-	width: 5em;
-	height: 5em;
+	width: 2.5em;
+	height: 2.5em;
 	background-image: url("../images/behance.svg");
 	background-repeat: no-repeat;
 }
@@ -92,8 +96,8 @@ h1 {
 }
 
 .instagram {
-	width: 5em;
-	height: 5em;
+	width: 2.5em;
+	height: 2.5em;
 	background-image: url("../images/instagram.svg");
 	background-repeat: no-repeat;
 }
