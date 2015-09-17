@@ -35,10 +35,8 @@ header {
 
 h1 {
     font-family: 'Oswald', sans-serif;
-}
-
-p {
-    padding-top: 10em;
+    color: red;
+    opacity: 0.8;
 }
 
 .social-media-badges{
@@ -48,7 +46,7 @@ p {
 }
 
 .social-media-badges a {
-	opacity: 0.7;
+	opacity: 0.8;
 	display: inline-block;
 	padding: .3em .3em .6em .3em;
 }
@@ -57,4 +55,49 @@ p {
     padding-top: 25em;
     width: 100%;
     height: 70vh;
+}
+
+.email {
+	width: 5em;
+	height: 5em;
+	background-image: url("../images/email.svg");
+	background-repeat: no-repeat;
+	margin-left: .25em;
+}
+
+.email:hover {
+	background-image: url("../images/email-red.svg");
+}
+
+.linkedin {
+	width: 5em;
+	height: 5em;
+	background-image: url("../images/linkdn.svg");
+	background-repeat: no-repeat;
+}
+
+.linkedin:hover {
+	background-image: url("../images/linkdn-red.svg");
+}
+
+.behance {
+	width: 5em;
+	height: 5em;
+	background-image: url("../images/behance.svg");
+	background-repeat: no-repeat;
+}
+
+.behance:hover {
+	background-image: url("../images/behance-red.svg");
+}
+
+.instagram {
+	width: 5em;
+	height: 5em;
+	background-image: url("../images/instagram.svg");
+	background-repeat: no-repeat;
+}
+
+.instagram:hover {
+	background-image: url("../images/instagram-red.svg");
 }
