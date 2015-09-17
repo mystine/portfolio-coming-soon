@@ -105,3 +105,45 @@ p {
 .instagram:hover {
 	background-image: url("../images/instagram-red.svg");
 }
+
+@media only screen and (min-width: 25em) {
+    .business-card {
+        padding-top: 25em;
+        width: 100%;
+        height: 70vh;
+    } 
+}
+
+@media only screen and (min-width: 45em) {
+    .business-card {
+        padding-top: 25em;
+        width: 50%;
+        height: 70vh;
+    } 
+}
+
+@media only screen and (min-width: 60em) {
+    .business-card {
+        padding-top: 25em;
+        width: 50%;
+        height: 70vh;
+    } 
+
+    .social-media-badges {
+	position: absolute;
+	padding-top: 15em;
+    }
+
+}
+
+@media only screen and (min-width: 80em) {
+    .business-card {
+        width: 30%;
+    } 
+    
+    .social-media-badges {
+	position: absolute;
+    float: left;
+    }
+
+}
