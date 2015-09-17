@@ -25,3 +25,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+	background-image: url("../images/me");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+}
